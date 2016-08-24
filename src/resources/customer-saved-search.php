@@ -77,6 +77,11 @@ return array(
                     "location" => "uri",
                     "description" => "The ID of the Saved Search.",
                     "required" => true
+                ),
+                "page" => array(
+                    "type" => "integer",
+                    "location" => "query",
+                    "description" => "Page to show (default: 1)"
                 )
             )
         ),
