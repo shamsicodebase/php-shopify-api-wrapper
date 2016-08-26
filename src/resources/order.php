@@ -44,6 +44,11 @@ return array(
             "summary" => "Retrieve a list of Orders (OPEN Orders by default, use status=any for ALL orders).",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
+                "ids" => array(
+	                "type" => "string",
+	                "location" => "query",
+	                "description" => "list of orders ids"
+                )
                 "limit" => array(
                     "type" => "number",
                     "location" => "query",
