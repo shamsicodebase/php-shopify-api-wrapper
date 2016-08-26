@@ -48,7 +48,7 @@ return array(
 	                "type" => "string",
 	                "location" => "query",
 	                "description" => "list of orders ids"
-                )
+                ),
                 "limit" => array(
                     "type" => "number",
                     "location" => "query",
