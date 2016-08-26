@@ -35,6 +35,11 @@ return array(
 	                "location" => "query",
 	                "description" => "Amount of results"
                 ),
+                "ids" => array(
+	                "type" => "string",
+	                "location" => "query",
+	                "description" => "list of customer ids"
+                )
              )
         ),
         
