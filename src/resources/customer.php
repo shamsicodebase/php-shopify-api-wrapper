@@ -23,7 +23,14 @@ return array(
             "httpMethod" => "GET",
             "uri" => "/admin/customers.json",
             "summary" => "Retrieve all customers of a shop",
-            "responseModel" => "defaultJsonResponse"
+            "responseModel" => "defaultJsonResponse",
+            "parameters" => array(
+                "page" => array(
+	                "type" => "number",
+	                "location" => "query",
+	                "description" => "Page to show"
+                )
+             )
         ),
         
         /**
