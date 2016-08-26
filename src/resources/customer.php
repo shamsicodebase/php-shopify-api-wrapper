@@ -29,7 +29,12 @@ return array(
 	                "type" => "number",
 	                "location" => "query",
 	                "description" => "Page to show"
-                )
+                ),
+                "limit" => array(
+	                "type" => "number",
+	                "location" => "query",
+	                "description" => "Amount of results"
+                ),
              )
         ),
         
