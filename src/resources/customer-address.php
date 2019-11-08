@@ -21,7 +21,7 @@ return array(
          */
         "getCustomerAddresses" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/customers/{id}/addresses.json",
+            "uri" => "/admin/api/2019-10/customers/{id}/addresses.json",
             "summary" => "Retrieve all addresses for a customer",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -51,7 +51,7 @@ return array(
          */
         "getCustomerAddress" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/customers/{id}/addresses/{addressId}.json",
+            "uri" => "/admin/api/2019-10/customers/{id}/addresses/{addressId}.json",
             "summary" => "Get a count of all articles from a certain blog",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -78,7 +78,7 @@ return array(
          */
         "createCustomerAddress" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/customers/{customer_id}/addresses.json",
+            "uri" => "/admin/api/2019-10/customers/{customer_id}/addresses.json",
             "summary" => "Creates a new address for a customer.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -159,7 +159,7 @@ return array(
          */
         "updateCustomerAddress" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/customers/{customer_id}/addresses/{id}.json",
+            "uri" => "/admin/api/2019-10/customers/{customer_id}/addresses/{id}.json",
             "summary" => "Update a a customers address.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -253,7 +253,7 @@ return array(
          */
         "deleteCustomerAddress" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/countries/{customer_id}/addresses/{id}.json",
+            "uri" => "/admin/api/2019-10/countries/{customer_id}/addresses/{id}.json",
             "summary" => "Delete a customers address.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -278,7 +278,7 @@ return array(
          */
         "deleteCustomerAddresses" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/countries/{id}/addresses/set.json?operation=destroy",
+            "uri" => "/admin/api/2019-10/countries/{id}/addresses/set.json?operation=destroy",
             "summary" => "Ddestroying multiple customer addresses.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -302,7 +302,7 @@ return array(
          */
         "setCustomersDefaultAddress" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/customers/{customer_id}/addresses/{id}/default.json",
+            "uri" => "/admin/api/2019-10/customers/{customer_id}/addresses/{id}/default.json",
             "summary" => "Assigning a new default address to a customer.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

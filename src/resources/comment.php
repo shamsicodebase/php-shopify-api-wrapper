@@ -21,7 +21,7 @@ return array(
          */
         "getComments" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/comments.json",
+            "uri" => "/admin/api/2019-10/comments.json",
             "summary" => "Get a list of all comments.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -95,7 +95,7 @@ return array(
          */
         "getCommentCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/comments/count.json",
+            "uri" => "/admin/api/2019-10/comments/count.json",
             "summary" => "Get a count of all comments.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -149,7 +149,7 @@ return array(
          */
         "getComment" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/comments/{id}.json",
+            "uri" => "/admin/api/2019-10/comments/{id}.json",
             "summary" => "Get a single comemnts by its ID.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -175,7 +175,7 @@ return array(
          */
         "createComment" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/comments.json",
+            "uri" => "/admin/api/2019-10/comments.json",
             "summary" => "Create a new comement for an article.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -247,7 +247,7 @@ return array(
          */
         "updateComment" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/comments/{id}.json",
+            "uri" => "/admin/api/2019-10/comments/{id}.json",
             "summary" => "Update a comement for an article.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -328,7 +328,7 @@ return array(
          */
         "markCommentAsSpam" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/comments/{id}/spam.json",
+            "uri" => "/admin/api/2019-10/comments/{id}/spam.json",
             "summary" => "Mark a comment as spam, helping to train our spam detection as well as remove the comment sometime soon.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -348,7 +348,7 @@ return array(
          */
         "markCommentAsNotSpam" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/comments/{id}/not_spam.json",
+            "uri" => "/admin/api/2019-10/comments/{id}/not_spam.json",
             "summary" => "Mark a comment as not spam, restoring a comment marked as spam back to published.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -368,7 +368,7 @@ return array(
          */
         "markCommentAsApproved" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/comments/{id}/approve.json",
+            "uri" => "/admin/api/2019-10/comments/{id}/approve.json",
             "summary" => "Approve a comment that is currently pending unapproved so that it will be published on the site.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -388,7 +388,7 @@ return array(
          */
         "removeComment" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/comments/{id}/remove.json",
+            "uri" => "/admin/api/2019-10/comments/{id}/remove.json",
             "summary" => "Remove a comment.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -407,7 +407,7 @@ return array(
          */
         "restoreComment" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/comments/{id}/restore.json",
+            "uri" => "/admin/api/2019-10/comments/{id}/restore.json",
             "summary" => "Restore a comment.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

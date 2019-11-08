@@ -21,7 +21,7 @@ return array(
          */
         "getScriptTags" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/script_tags.json",
+            "uri" => "/admin/api/2019-10/script_tags.json",
             "summary" => "Receive a list of all script tags.",
             "responseModel" => "defaultJsonResponse"
         ),
@@ -33,7 +33,7 @@ return array(
          */
         "createScriptTag" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/script_tags.json",
+            "uri" => "/admin/api/2019-10/script_tags.json",
             "summary" => "Create a new script tag.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -63,7 +63,7 @@ return array(
          */
         "updateScriptTag" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/script_tags/{id}.json",
+            "uri" => "/admin/api/2019-10/script_tags/{id}.json",
             "summary" => "Update a script tag.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -98,7 +98,7 @@ return array(
          */
         "deleteScriptTag" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/script_tags/{id}.json",
+            "uri" => "/admin/api/2019-10/script_tags/{id}.json",
             "summary" => "Delete a script tag.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

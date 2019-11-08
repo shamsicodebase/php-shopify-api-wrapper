@@ -21,7 +21,7 @@ return array(
          */
         "getProvinces" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/countries/{country_id}/provinces.json",
+            "uri" => "/admin/api/2019-10/countries/{country_id}/provinces.json",
             "summary" => "Get a all provinces.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -52,7 +52,7 @@ return array(
          */
         "getProvinceCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/countries/{country_id}/provinces/count.json",
+            "uri" => "/admin/api/2019-10/countries/{country_id}/provinces/count.json",
             "summary" => "Get a count of all provinces.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -78,7 +78,7 @@ return array(
          */
         "getProvince" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/countries/{country_id}/provinces/{id}.json",
+            "uri" => "/admin/api/2019-10/countries/{country_id}/provinces/{id}.json",
             "summary" => "Get a count of all provinces.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -110,7 +110,7 @@ return array(
          */
         "updateProvince" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/countries/{country_id}/provinces/{id}.json",
+            "uri" => "/admin/api/2019-10/countries/{country_id}/provinces/{id}.json",
             "summary" => "Update a province's tax rate.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

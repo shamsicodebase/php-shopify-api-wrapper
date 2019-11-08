@@ -21,7 +21,7 @@ return array(
          */
         "getRefund" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/orders/{order_id}/refunds/{id}.json",
+            "uri" => "/admin/api/2019-10/orders/{order_id}/refunds/{id}.json",
             "summary" => "Receive a singe refund.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

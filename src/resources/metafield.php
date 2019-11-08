@@ -21,7 +21,7 @@ return array(
          */
         "getMetafields" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/metafields.json",
+            "uri" => "/admin/api/2019-10/metafields.json",
             "summary" => "Get metafields that belong to a store",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -86,7 +86,7 @@ return array(
          */
         "getProductMetafields" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/products/{id}/metafields.json",
+            "uri" => "/admin/api/2019-10/products/{id}/metafields.json",
             "summary" => "Get metafields that belong to a product",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -107,7 +107,7 @@ return array(
          */
         "getProductVariantMetafields" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/variants/{id}/metafields.json",
+            "uri" => "/admin/api/2019-10/variants/{id}/metafields.json",
             "summary" => "Get metafields that belong to a variant",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -128,7 +128,7 @@ return array(
          */
         "getMetafieldsCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/metafields/count.json",
+            "uri" => "/admin/api/2019-10/metafields/count.json",
             "summary" => "Get a count of metafields that belong to a store",
             "responseModel" => "defaultJsonResponse"
         ),
@@ -141,7 +141,7 @@ return array(
          */
         "getProductMetafieldsCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/products/{id}/metafields/count.json",
+            "uri" => "/admin/api/2019-10/products/{id}/metafields/count.json",
             "summary" => "Get a count of metafields that belong to a product",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -162,7 +162,7 @@ return array(
          */
         "getProductVariantMetafieldsCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/variants/{id}/metafields/count.json",
+            "uri" => "/admin/api/2019-10/variants/{id}/metafields/count.json",
             "summary" => "Get a count of metafields that belong to a variant",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -183,7 +183,7 @@ return array(
          */
         "getMetafield" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/metafields/{id}.json",
+            "uri" => "/admin/api/2019-10/metafields/{id}.json",
             "summary" => "Get a single store metafield by its ID",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -204,7 +204,7 @@ return array(
          */
         "getProductMetafield" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/products/{id}/metafields/{metafield_id}.json",
+            "uri" => "/admin/api/2019-10/products/{id}/metafields/{metafield_id}.json",
             "summary" => "Get a single product metafield by its ID",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -231,7 +231,7 @@ return array(
          */
         "getProductVariantMetafield" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/variants/{id}/metafields/{metafield_id}.json",
+            "uri" => "/admin/api/2019-10/variants/{id}/metafields/{metafield_id}.json",
             "summary" => "Get a single variant metafield by its ID",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -258,7 +258,7 @@ return array(
          */
         "createMetafield" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/metafields.json",
+            "uri" => "/admin/api/2019-10/metafields.json",
             "summary" => "Create a new metafield for a store",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -298,7 +298,7 @@ return array(
          */
         "createProductMetafield" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/products/{id}/metafields.json",
+            "uri" => "/admin/api/2019-10/products/{id}/metafields.json",
             "summary" => "Create a new metafield for a product",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -344,7 +344,7 @@ return array(
          */
         "createProductVariantMetafield" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/variants/{id}/metafields.json",
+            "uri" => "/admin/api/2019-10/variants/{id}/metafields.json",
             "summary" => "Create a new metafield for a variant",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -390,7 +390,7 @@ return array(
          */
         "updateMetafield" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/metafields/{id}.json",
+            "uri" => "/admin/api/2019-10/metafields/{id}.json",
             "summary" => "Update a store Metafield",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -431,7 +431,7 @@ return array(
          */
         "updateProductMetafield" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/products/{id}/metafields/{metafield_id}.json",
+            "uri" => "/admin/api/2019-10/products/{id}/metafields/{metafield_id}.json",
             "summary" => "Update a Product Metafield",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -478,7 +478,7 @@ return array(
          */
         "updateProductVariantMetafield" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/variants/{id}/metafields/{metafield_id}.json",
+            "uri" => "/admin/api/2019-10/variants/{id}/metafields/{metafield_id}.json",
             "summary" => "Update a Variant Metafield",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -525,7 +525,7 @@ return array(
          */
         "deleteMetafield" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/metafields/{id}.json",
+            "uri" => "/admin/api/2019-10/metafields/{id}.json",
             "summary" => "Delete a store Metafield",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -546,7 +546,7 @@ return array(
          */
         "deleteProductMetafield" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/products/{id}/metafields/{id}.json",
+            "uri" => "/admin/api/2019-10/products/{id}/metafields/{id}.json",
             "summary" => "Delete a Product Metafield",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -573,7 +573,7 @@ return array(
          */
         "deleteProductVariantMetafield" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/variants/{id}/metafields/{id}.json",
+            "uri" => "/admin/api/2019-10/variants/{id}/metafields/{id}.json",
             "summary" => "Delete a Product Metafield",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

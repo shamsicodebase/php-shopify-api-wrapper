@@ -21,7 +21,7 @@ return array(
          */
         "getCustomerGroups" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/customer_saved_searches.json",
+            "uri" => "/admin/api/2019-10/customer_saved_searches.json",
             "summary" => "Get a list of all customer groups",
             "responseModel" => "defaultJsonResponse",
         ),
@@ -33,7 +33,7 @@ return array(
          */
         "getCustomerGroupCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/customer_saved_searches/count.json",
+            "uri" => "/admin/api/2019-10/customer_saved_searches/count.json",
             "summary" => "Get a count of all customer groups",
             "responseModel" => "defaultJsonResponse"
         ),
@@ -45,7 +45,7 @@ return array(
          */
         "getCustomerGroup" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/customer_saved_searches/{id}.json",
+            "uri" => "/admin/api/2019-10/customer_saved_searches/{id}.json",
             "summary" => "Retrieve a single Customer Group",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -65,7 +65,7 @@ return array(
          */
         "getCustomerGroupCustomers" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/customer_saved_searches/{id}/customers.json",
+            "uri" => "/admin/api/2019-10/customer_saved_searches/{id}/customers.json",
             "summary" => "Get all customers who match the criteria for the specified customer group",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

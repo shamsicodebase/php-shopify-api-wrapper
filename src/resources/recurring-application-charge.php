@@ -21,7 +21,7 @@ return array(
          */
         "getRecurringApplicationCharges" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/recurring_application_charges.json",
+            "uri" => "/admin/api/2019-10/recurring_application_charges.json",
             "summary" => "All past and present recurring charge requests are retrieved by this request.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -44,7 +44,7 @@ return array(
          */
         "getRecurringApplicationCharge" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/recurring_application_charges/{id}.json",
+            "uri" => "/admin/api/2019-10/recurring_application_charges/{id}.json",
             "summary" => "Get a recurring application charge.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -64,7 +64,7 @@ return array(
          */
         "createRecurringApplicationCharge" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/recurring_application_charges.json",
+            "uri" => "/admin/api/2019-10/recurring_application_charges.json",
             "summary" => "Create recurring application charge.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -120,7 +120,7 @@ return array(
          */
         "activateRecurringApplicationCharge" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/recurring_application_charges/{id}/activate.json",
+            "uri" => "/admin/api/2019-10/recurring_application_charges/{id}/activate.json",
             "summary" => "Activate recurring application charge.",
             "parameters" => array(
 	            "id" => array(
@@ -139,7 +139,7 @@ return array(
          */
         "deleteRecurringApplicationCharges" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/recurring_application_charges/{id}.json",
+            "uri" => "/admin/api/2019-10/recurring_application_charges/{id}.json",
             "summary" => "Cancel the current recurring charge for a shop.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

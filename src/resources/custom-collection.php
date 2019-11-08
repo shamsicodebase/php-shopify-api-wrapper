@@ -21,7 +21,7 @@ return array(
          */
         "getCustomCollections" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/custom_collections.json",
+            "uri" => "/admin/api/2019-10/custom_collections.json",
             "summary" => "Get a list of all custom collections that contain a given product",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -95,7 +95,7 @@ return array(
          */
         "getCustomCollectionCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/custom_collections/count.json",
+            "uri" => "/admin/api/2019-10/custom_collections/count.json",
             "summary" => "Retrieve a count of all Custom Collections",
             "responseModel" => "defaultJsonResponse"
         ),
@@ -107,7 +107,7 @@ return array(
          */
         "getCustomCollection" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/custom_collections/{id}.json",
+            "uri" => "/admin/api/2019-10/custom_collections/{id}.json",
             "summary" => "Retrieve a single Blog",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -128,7 +128,7 @@ return array(
          */
         "createCustomCollection" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/custom_collections.json",
+            "uri" => "/admin/api/2019-10/custom_collections.json",
             "summary" => "Creates a custom collection.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -200,7 +200,7 @@ return array(
          */
         "updateCustomCollection" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/custom_collections/{id}.json",
+            "uri" => "/admin/api/2019-10/custom_collections/{id}.json",
             "summary" => "Update a custom collection.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -280,7 +280,7 @@ return array(
          */
         "deleteCustomCollection" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/custom_collections/{id}.json",
+            "uri" => "/admin/api/2019-10/custom_collections/{id}.json",
             "summary" => "Delete a custom collection.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

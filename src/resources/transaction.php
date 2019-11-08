@@ -21,7 +21,7 @@ return array(
          */
         "getTransactions" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/orders/{order_id}/transactions.json",
+            "uri" => "/admin/api/2019-10/orders/{order_id}/transactions.json",
             "summary" => "Get a list of all transactions for a given order.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -52,7 +52,7 @@ return array(
          */
         "getTransactionCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/orders/{order_id}/transactions/count.json",
+            "uri" => "/admin/api/2019-10/orders/{order_id}/transactions/count.json",
             "summary" => "Count all a given order’s money transfers.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -73,7 +73,7 @@ return array(
          */
         "getTransaction" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/orders/{order_id}/transactions/{id}.json",
+            "uri" => "/admin/api/2019-10/orders/{order_id}/transactions/{id}.json",
             "summary" => "Get a single webhook by id",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -106,7 +106,7 @@ return array(
          */
         "createTransaction" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/orders/{order_id}/transactions.json",
+            "uri" => "/admin/api/2019-10/orders/{order_id}/transactions.json",
             "summary" => "Create a new transaction.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -187,7 +187,7 @@ return array(
          */
         "updateWebhook" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/webhooks/{id}.json",
+            "uri" => "/admin/api/2019-10/webhooks/{id}.json",
             "summary" => "Update a new webhook.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -238,7 +238,7 @@ return array(
          */
         "deleteRedirect" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/webhooks/{id}.json",
+            "uri" => "/admin/api/2019-10/webhooks/{id}.json",
             "summary" => "Delete a webhook.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

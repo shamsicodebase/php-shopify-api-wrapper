@@ -21,7 +21,7 @@ return array(
          */
         "getEvents" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/events.json",
+            "uri" => "/admin/api/2019-10/events.json",
             "summary" => "Retrieve a list of all events.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -76,7 +76,7 @@ return array(
          */
         "getEventCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/events/count.json",
+            "uri" => "/admin/api/2019-10/events/count.json",
             "summary" => "Retrieve a count of all events.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -101,7 +101,7 @@ return array(
          */
         "getEvent" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/event/{id}.json",
+            "uri" => "/admin/api/2019-10/event/{id}.json",
             "summary" => "Retrieve a single event.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

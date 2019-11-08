@@ -21,7 +21,7 @@ return array(
          */
         "getShippingZones" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/shipping_zones.json",
+            "uri" => "/admin/api/2019-10/shipping_zones.json",
             "summary" => "Get a list of all shipping zones.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
