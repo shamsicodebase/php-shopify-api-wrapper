@@ -87,7 +87,13 @@ return array(
             "type" => "object",
             "additionalProperties" => array(
                 "location" => "json",
-            )
+            ),
+            "properties" => array(
+                "link" => array(
+                    "location"=>"header",
+                    "type"=>"string"
+                ),
+            ),
         )
     )
 );
