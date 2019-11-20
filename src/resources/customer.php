@@ -25,8 +25,8 @@ return array(
             "summary" => "Retrieve all customers of a shop",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
-                "page" => array(
-	                "type" => "number",
+                "page_info" => array(
+	                "type" => "string",
 	                "location" => "query",
 	                "description" => "Page to show"
                 ),
@@ -64,10 +64,10 @@ return array(
 	                "location" => "query",
 	                "description" => "Text to search customers"
                 ),
-                "page" => array(
-	                "type" => "number",
-	                "location" => "query",
-	                "description" => "Page to show"
+                "page_info" => array(
+                    "type" => "string",
+                    "location" => "query",
+                    "description" => "Page to show"
                 ),
                 "limit" => array(
 	                "type" => "number",
