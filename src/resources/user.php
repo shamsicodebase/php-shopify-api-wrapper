@@ -21,7 +21,7 @@ return array(
          */
         "getUsers" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/users.json",
+            "uri" => "/admin/api/2020-04/users.json",
             "summary" => "Get a list of all users.",
             "responseModel" => "defaultJsonResponse",
         ),
@@ -34,7 +34,7 @@ return array(
          */
         "getUser" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/users/{id}.json",
+            "uri" => "/admin/api/2020-04/users/{id}.json",
             "summary" => "Get a user.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

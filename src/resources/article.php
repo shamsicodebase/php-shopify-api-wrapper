@@ -21,7 +21,7 @@ return array(
          */
         "getArticles" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/blogs/{blog_id}/articles.json",
+            "uri" => "/admin/api/2020-04/blogs/{blog_id}/articles.json",
             "summary" => "Get a list of all articles from a certain blog.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -97,7 +97,7 @@ return array(
          */
         "getArticlesCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/blogs/{blog_id}/articles/count.json",
+            "uri" => "/admin/api/2020-04/blogs/{blog_id}/articles/count.json",
             "summary" => "Get a count of all articles from a certain blog.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -153,7 +153,7 @@ return array(
          */
         "getArticle" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/blogs/{blog_id}/articles/{article_id}.json",
+            "uri" => "/admin/api/2020-04/blogs/{blog_id}/articles/{article_id}.json",
             "summary" => "Get a single article by its ID and the ID of the parent blog.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -185,7 +185,7 @@ return array(
          */
         "createArticle" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/blogs/{blog_id}/articles.json",
+            "uri" => "/admin/api/2020-04/blogs/{blog_id}/articles.json",
             "summary" => "Create a new article for a blog",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -261,7 +261,7 @@ return array(
          */
         "updateArticle" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/blogs/{blog_id}/articles/{article_id}.json",
+            "uri" => "/admin/api/2020-04/blogs/{blog_id}/articles/{article_id}.json",
             "summary" => "Create a new article for a blog.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -347,7 +347,7 @@ return array(
          */
         "getAuthors" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/articles/authors.json",
+            "uri" => "/admin/api/2020-04/articles/authors.json",
             "summary" => "Get a list of all the authors of articles.",
             "responseModel" => "defaultJsonResponse",
         ),  
@@ -360,7 +360,7 @@ return array(
          */
         "getTags" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/articles/tags.json",
+            "uri" => "/admin/api/2020-04/articles/tags.json",
             "summary" => "Get a list of all the tags of articles.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -385,7 +385,7 @@ return array(
          */
         "getBlogTags" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/blogs/{blog_id}/articles/tags.json",
+            "uri" => "/admin/api/2020-04/blogs/{blog_id}/articles/tags.json",
             "summary" => "Get a list of all tags from a specific blog.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -416,7 +416,7 @@ return array(
          */
         "deleteArticle" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/blogs/{blog_id}/articles/{article_id}.json",
+            "uri" => "/admin/api/2020-04/blogs/{blog_id}/articles/{article_id}.json",
             "summary" => "Delete an article of a blog.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

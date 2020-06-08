@@ -21,7 +21,7 @@ return array(
          */
         "getAssets" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/themes/{id}/assets.json",
+            "uri" => "/admin/api/2020-04/themes/{id}/assets.json",
             "summary" => "Listing theme assets only returns metadata about each asset. You need to request assets individually in order to get their contents.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -46,7 +46,7 @@ return array(
          */
         "getAsset" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/themes/{id}/assets.json",
+            "uri" => "/admin/api/2020-04/themes/{id}/assets.json",
             "summary" => "Get an asset.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -72,7 +72,7 @@ return array(
          */
         "updateAsset" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/themes/{id}/assets.json",
+            "uri" => "/admin/api/2020-04/themes/{id}/assets.json",
             "summary" => "PUT takes care of both creating new assets and updating existing ones.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -123,7 +123,7 @@ return array(
          */
         "deleteAsset" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/themes/{id}/assets.json",
+            "uri" => "/admin/api/2020-04/themes/{id}/assets.json",
             "summary" => "Delete assets from your shop.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

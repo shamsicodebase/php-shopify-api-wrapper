@@ -21,7 +21,7 @@ return array(
          */
         "getFulfillmentServices" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/fulfillment_services.json",
+            "uri" => "/admin/api/2020-04/fulfillment_services.json",
             "summary" => "Retrieve all fulfilment services.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -40,7 +40,7 @@ return array(
          */
         "getFulfillmentService" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/fulfillment_services/{id}.json",
+            "uri" => "/admin/api/2020-04/fulfillment_services/{id}.json",
             "summary" => "Get a single fulfillment service.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -61,7 +61,7 @@ return array(
          */
         "createFulfillmentService" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/fulfillment_services.json",
+            "uri" => "/admin/api/2020-04/fulfillment_services.json",
             "summary" => "Create a fulfilment for a specific order.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -121,7 +121,7 @@ return array(
          */
         "updateFulfillmentService" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/fulfillment_services/{id}.json",
+            "uri" => "/admin/api/2020-04/fulfillment_services/{id}.json",
             "summary" => "Update a fulfillment service.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -192,7 +192,7 @@ return array(
          */
         "deleteFulfillmentService" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/fulfillment_services/{id}.json",
+            "uri" => "/admin/api/2020-04/fulfillment_services/{id}.json",
             "summary" => "Delete a fulfillment service.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

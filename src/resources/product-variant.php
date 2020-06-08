@@ -21,7 +21,7 @@ return array(
          */
         "getProductVariants" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/products/{id}/variants.json",
+            "uri" => "/admin/api/2020-04/products/{id}/variants.json",
             "summary" => "Retrieve a list of all product variants.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -62,7 +62,7 @@ return array(
          */
         "getProductVariantCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/products/{id}/variants/count.json",
+            "uri" => "/admin/api/2020-04/products/{id}/variants/count.json",
             "summary" => "Get a count of product variants.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -83,7 +83,7 @@ return array(
          */
         "getProductVariant" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/variants/{id}.json",
+            "uri" => "/admin/api/2020-04/variants/{id}.json",
             "summary" => "Get a single product variant by id.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -109,7 +109,7 @@ return array(
          */
         "createProductVariant" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/products/{id}/variants.json",
+            "uri" => "/admin/api/2020-04/products/{id}/variants.json",
             "summary" => "Create a new product variant.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -230,7 +230,7 @@ return array(
          */
         "updateProductVariant" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/variants/{id}.json",
+            "uri" => "/admin/api/2020-04/variants/{id}.json",
             "summary" => "Update a product variant.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -356,7 +356,7 @@ return array(
          */
         "deleteProductVariant" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/products/{product_id}/variants/{id}.json",
+            "uri" => "/admin/api/2020-04/products/{product_id}/variants/{id}.json",
             "summary" => "Delete a product variant.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

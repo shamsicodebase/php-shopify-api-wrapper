@@ -21,7 +21,7 @@ return array(
          */
         "getPages" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/pages.json",
+            "uri" => "/admin/api/2020-04/pages.json",
             "summary" => "Get a list of all pages.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -101,7 +101,7 @@ return array(
          */
         "getPageCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/pages/count.json",
+            "uri" => "/admin/api/2020-04/pages/count.json",
             "summary" => "Get a count of all pages.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -156,7 +156,7 @@ return array(
          */
         "getPage" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/pages/{id}.json",
+            "uri" => "/admin/api/2020-04/pages/{id}.json",
             "summary" => "Retrieve a single page.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -182,7 +182,7 @@ return array(
          */
         "createPage" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/pages.json",
+            "uri" => "/admin/api/2020-04/pages.json",
             "summary" => "Create a new page.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -237,7 +237,7 @@ return array(
          */
         "updatePage" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/pages/{id}.json",
+            "uri" => "/admin/api/2020-04/pages/{id}.json",
             "summary" => "Update a page.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -298,7 +298,7 @@ return array(
          */
         "deletePage" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/pages/{id}.json",
+            "uri" => "/admin/api/2020-04/pages/{id}.json",
             "summary" => "Delete a page.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

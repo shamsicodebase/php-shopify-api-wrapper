@@ -21,7 +21,7 @@ return array(
          */
         "getRedirects" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/redirects.json",
+            "uri" => "/admin/api/2020-04/redirects.json",
             "summary" => "Get a list of all URL redirects for your shop.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -66,7 +66,7 @@ return array(
          */
         "getRedirectsCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/redirects/count.json",
+            "uri" => "/admin/api/2020-04/redirects/count.json",
             "summary" => "Get a count of all URL redirects for your shop.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -91,7 +91,7 @@ return array(
          */
         "getRedirect" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/redirects/{id}.json",
+            "uri" => "/admin/api/2020-04/redirects/{id}.json",
             "summary" => "Get a single redirect.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -117,7 +117,7 @@ return array(
          */
         "createRedirect" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/redirects.json",
+            "uri" => "/admin/api/2020-04/redirects.json",
             "summary" => "Create a new redirect.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -147,7 +147,7 @@ return array(
          */
         "updateRedirect" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/redirects/{id}.json",
+            "uri" => "/admin/api/2020-04/redirects/{id}.json",
             "summary" => "Update a redirect's path and/or target URIs.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -185,7 +185,7 @@ return array(
          */
         "deleteRedirect" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/redirects/{id}.json",
+            "uri" => "/admin/api/2020-04/redirects/{id}.json",
             "summary" => "Delete a store redirect",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

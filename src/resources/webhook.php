@@ -21,7 +21,7 @@ return array(
          */
         "getWebhooks" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/webhooks.json",
+            "uri" => "/admin/api/2020-04/webhooks.json",
             "summary" => "Get a list of all webhooks",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -86,7 +86,7 @@ return array(
          */
         "getWebhookCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/webhooks/count.json",
+            "uri" => "/admin/api/2020-04/webhooks/count.json",
             "summary" => "Get a count of webhooks",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -111,7 +111,7 @@ return array(
          */
         "getWebhook" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/webhooks/{id}.json",
+            "uri" => "/admin/api/2020-04/webhooks/{id}.json",
             "summary" => "Get a single webhook by id",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -138,7 +138,7 @@ return array(
          */
         "createWebhook" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/webhooks.json",
+            "uri" => "/admin/api/2020-04/webhooks.json",
             "summary" => "Create a new webhook.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -178,7 +178,7 @@ return array(
          */
         "updateWebhook" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/webhooks/{id}.json",
+            "uri" => "/admin/api/2020-04/webhooks/{id}.json",
             "summary" => "Update a new webhook.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -229,7 +229,7 @@ return array(
          */
         "deleteWebhook" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/webhooks/{id}.json",
+            "uri" => "/admin/api/2020-04/webhooks/{id}.json",
             "summary" => "Delete a webhook.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

@@ -21,7 +21,7 @@ return array(
          */
         "getCarrierServices" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/carrier_services.json",
+            "uri" => "/admin/api/2020-04/carrier_services.json",
             "summary" => "Retrieve a list of all Carrier Services",
             "responseModel" => "defaultJsonResponse"
         ),
@@ -34,7 +34,7 @@ return array(
          */
         "getCarrierService" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/carrier_services/{id}.json",
+            "uri" => "/admin/api/2020-04/carrier_services/{id}.json",
             "summary" => "Retrieve a single Carrier Service",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -55,7 +55,7 @@ return array(
          */
         "createCarrierService" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/carrier_services.json",
+            "uri" => "/admin/api/2020-04/carrier_services.json",
             "summary" => "Create a Carrier Service.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -105,7 +105,7 @@ return array(
          */
         "updateCarrierService" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/carrier_services/{id}.json",
+            "uri" => "/admin/api/2020-04/carrier_services/{id}.json",
             "summary" => "Update a Carrier Service.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -166,7 +166,7 @@ return array(
          */
         "deleteCarrierService" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/carrier_services/{id}.json",
+            "uri" => "/admin/api/2020-04/carrier_services/{id}.json",
             "summary" => "Delete an carrier service.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

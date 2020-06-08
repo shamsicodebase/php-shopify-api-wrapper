@@ -21,7 +21,7 @@ return array(
          */
         "getCountries" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/countries.json",
+            "uri" => "/admin/api/2020-04/countries.json",
             "summary" => "Get a list of all countries.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -46,7 +46,7 @@ return array(
          */
         "getCountryCount" => array(
 	      	"httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/countries/count.json",
+            "uri" => "/admin/api/2020-04/countries/count.json",
             "summary" => "Get a count of all countries.",
             "responseModel" => "defaultJsonResponse" 
         ),
@@ -59,7 +59,7 @@ return array(
          */
         "getCountry" => array(
 	      	"httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/countries/{id}.json",
+            "uri" => "/admin/api/2020-04/countries/{id}.json",
             "summary" => "Show country.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -85,7 +85,7 @@ return array(
          */
         "createCountry" => array(
 	      	"httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/countries.json",
+            "uri" => "/admin/api/2020-04/countries.json",
             "summary" => "Create a country.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -120,7 +120,7 @@ return array(
          */
         "updateCountry" => array(
 	      	"httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/countries/{id}.json",
+            "uri" => "/admin/api/2020-04/countries/{id}.json",
             "summary" => "Create a country.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -166,7 +166,7 @@ return array(
          */
         "deleteCountry" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/countries/{id}.json",
+            "uri" => "/admin/api/2020-04/countries/{id}.json",
             "summary" => "Delete a country.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

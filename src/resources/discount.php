@@ -21,7 +21,7 @@ return array(
          */
         "getDiscounts" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/discounts.json",
+            "uri" => "/admin/api/2020-04/discounts.json",
             "summary" => "Retrieve a list of all Discounts",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -45,7 +45,7 @@ return array(
          */
         "getDiscount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/discount/{id}.json",
+            "uri" => "/admin/api/2020-04/discount/{id}.json",
             "summary" => "Retrieve a single Discount",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -66,7 +66,7 @@ return array(
          */
         "createDiscount" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/discounts.json",
+            "uri" => "/admin/api/2020-04/discounts.json",
             "summary" => "Create a new Discount.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -141,7 +141,7 @@ return array(
          */
         "deleteDiscount" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/discounts/{id}.json",
+            "uri" => "/admin/api/2020-04/discounts/{id}.json",
             "summary" => "Delete a discount from the shop.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -162,7 +162,7 @@ return array(
          */
         "disableDiscount" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/discounts/{id}/disable.json",
+            "uri" => "/admin/api/2020-04/discounts/{id}/disable.json",
             "summary" => "Disable a discount from the shop.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -183,7 +183,7 @@ return array(
          */
         "enableDiscount" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/discounts/{id}/enable.json",
+            "uri" => "/admin/api/2020-04/discounts/{id}/enable.json",
             "summary" => "Enable a discount from the shop.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

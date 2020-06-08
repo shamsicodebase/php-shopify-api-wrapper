@@ -21,7 +21,7 @@ return array(
 		 */
 		"getOrderMetaFields" => array(
 			"httpMethod" => "GET",
-			"uri" => "/admin/api/2019-10/orders/{id}/metafields.json",
+			"uri" => "/admin/api/2020-04/orders/{id}/metafields.json",
 			"summary" => "Retrieve a specific order.",
 			"responseModel" => "defaultJsonResponse",
 			"parameters" => array(
@@ -40,7 +40,7 @@ return array(
          */
         "getOrders" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/orders.json",
+            "uri" => "/admin/api/2020-04/orders.json",
             "summary" => "Retrieve a list of Orders (OPEN Orders by default, use status=any for ALL orders).",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -125,7 +125,7 @@ return array(
          */
         "getOrder" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/orders/{id}.json",
+            "uri" => "/admin/api/2020-04/orders/{id}.json",
             "summary" => "Retrieve a specific order.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -150,7 +150,7 @@ return array(
          */
         "getOrderCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/orders/count.json",
+            "uri" => "/admin/api/2020-04/orders/count.json",
             "summary" => "Retrieve a count of all the orders.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -200,7 +200,7 @@ return array(
          */
         "closeOrder" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/orders/{id}/close.json",
+            "uri" => "/admin/api/2020-04/orders/{id}/close.json",
             "summary" => "Close an order.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -220,7 +220,7 @@ return array(
          */
         "openOrder" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/orders/{id}/open.json",
+            "uri" => "/admin/api/2020-04/orders/{id}/open.json",
             "summary" => "Re-open a closed order.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -240,7 +240,7 @@ return array(
          */
         "cancelOrder" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/orders/{id}/cancel.json",
+            "uri" => "/admin/api/2020-04/orders/{id}/cancel.json",
             "summary" => "Cancel an order.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -285,7 +285,7 @@ return array(
          */
         "createOrder" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/orders.json",
+            "uri" => "/admin/api/2020-04/orders.json",
             "summary" => "Create a new order.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -515,7 +515,7 @@ return array(
          */
         "updateOrder" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/orders/{id}.json",
+            "uri" => "/admin/api/2020-04/orders/{id}.json",
             "summary" => "Create a new order.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -755,7 +755,7 @@ return array(
          */
         "deleteOrder" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/orders/{id}.json",
+            "uri" => "/admin/api/2020-04/orders/{id}.json",
             "summary" => "Delete an order.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

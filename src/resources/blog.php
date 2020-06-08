@@ -21,7 +21,7 @@ return array(
          */
         "getBlogs" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/blogs.json",
+            "uri" => "/admin/api/2020-04/blogs.json",
             "summary" => "Retrieve a list of all Blogs",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -51,7 +51,7 @@ return array(
          */
         "getBlogCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/blogs/count.json",
+            "uri" => "/admin/api/2020-04/blogs/count.json",
             "summary" => "Retrieve a count of all Blogs",
             "responseModel" => "defaultJsonResponse"
         ),
@@ -64,7 +64,7 @@ return array(
          */
         "getBlog" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/blogs/{id}.json",
+            "uri" => "/admin/api/2020-04/blogs/{id}.json",
             "summary" => "Retrieve a single Blog",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -90,7 +90,7 @@ return array(
          */
         "createBlog" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/blogs.json",
+            "uri" => "/admin/api/2020-04/blogs.json",
             "summary" => "Create a new blog",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -141,7 +141,7 @@ yes: Readers can post comments to blog articles without moderation."
          */
         "updateBlog" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/blogs/{id}.json",
+            "uri" => "/admin/api/2020-04/blogs/{id}.json",
             "summary" => "Update a blog",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -203,7 +203,7 @@ yes: Readers can post comments to blog articles without moderation."
          */
         "deleteBlog" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/blogs/{id}.json",
+            "uri" => "/admin/api/2020-04/blogs/{id}.json",
             "summary" => "Delete a blog.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

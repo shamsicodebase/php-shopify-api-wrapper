@@ -21,7 +21,7 @@ return array(
          */
         "getShop" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/shop.json",
+            "uri" => "/admin/api/2020-04/shop.json",
             "summary" => "Retrieve Shop",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

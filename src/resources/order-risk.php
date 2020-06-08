@@ -21,7 +21,7 @@ return array(
          */
         "getOrderRisks" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/orders/{id}/risks.json",
+            "uri" => "/admin/api/2020-04/orders/{id}/risks.json",
             "summary" => "Get a list of all Order Risks.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -42,7 +42,7 @@ return array(
          */
         "getOrderRisk" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/orders/{order_id}/risks/{id}.json",
+            "uri" => "/admin/api/2020-04/orders/{order_id}/risks/{id}.json",
             "summary" => "Get a count of all pages.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -69,7 +69,7 @@ return array(
          */
         "updateOrderRisk" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/orders/{order_id}/risks/{id}.json",
+            "uri" => "/admin/api/2020-04/orders/{order_id}/risks/{id}.json",
             "summary" => "Update an Order Risk entry.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -136,7 +136,7 @@ return array(
          */
         "deleteOrderRisk" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/orders/{order_id}/risks/{id}.json",
+            "uri" => "/admin/api/2020-04/orders/{order_id}/risks/{id}.json",
             "summary" => "Delete an order risk entry. Consider updating a previous order risk with display set to false rather than deleting an entry.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

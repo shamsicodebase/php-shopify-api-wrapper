@@ -21,7 +21,7 @@ return array(
          */
         "getProducts" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/products.json",
+            "uri" => "/admin/api/2020-04/products.json",
             "summary" => "Retrieve a list of all Products",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -111,7 +111,7 @@ return array(
          */
         "getProductCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/products/count.json",
+            "uri" => "/admin/api/2020-04/products/count.json",
             "summary" => "Retrieve a count of all Products",
             "responseModel" => "defaultJsonResponse"
         ),
@@ -124,7 +124,7 @@ return array(
          */
         "getProduct" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/products/{id}.json",
+            "uri" => "/admin/api/2020-04/products/{id}.json",
             "summary" => "Retrieve a single Product",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -145,7 +145,7 @@ return array(
          */
         "createProduct" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/products.json",
+            "uri" => "/admin/api/2020-04/products.json",
             "summary" => "Create a new product.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -235,7 +235,7 @@ return array(
          */
         "updateProduct" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/products/{id}.json",
+            "uri" => "/admin/api/2020-04/products/{id}.json",
             "summary" => "Update an existing product.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -336,7 +336,7 @@ return array(
          */
         "deleteProduct" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/products/{id}.json",
+            "uri" => "/admin/api/2020-04/products/{id}.json",
             "summary" => "Delete a product from the shop.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

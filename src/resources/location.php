@@ -21,7 +21,7 @@ return array(
          */
         "getLocations" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/locations.json",
+            "uri" => "/admin/api/2020-04/locations.json",
             "summary" => "Get a list of all locations for a shop.",
             "responseModel" => "defaultJsonResponse",
         ),
@@ -34,7 +34,7 @@ return array(
          */
         "getLocation" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/locations/{id}.json",
+            "uri" => "/admin/api/2020-04/locations/{id}.json",
             "summary" => "Get a single location by its ID.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

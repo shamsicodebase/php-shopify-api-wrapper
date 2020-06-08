@@ -21,7 +21,7 @@ return array(
          */
         "getCustomers" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/customers.json",
+            "uri" => "/admin/api/2020-04/customers.json",
             "summary" => "Retrieve all customers of a shop",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -50,7 +50,7 @@ return array(
          */
         "getCustomerSearch" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/customers/search.json",
+            "uri" => "/admin/api/2020-04/customers/search.json",
             "summary" => "Retrieve a count of all Blogs",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -90,7 +90,7 @@ return array(
          */
         "getCustomer" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/customers/{id}.json",
+            "uri" => "/admin/api/2020-04/customers/{id}.json",
             "summary" => "Retrieve a single Customer",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -110,7 +110,7 @@ return array(
          */
         "createCustomer" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/customers.json",
+            "uri" => "/admin/api/2020-04/customers.json",
             "summary" => "Create a new customer record.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -230,7 +230,7 @@ return array(
          */
         "updateCustomer" => array(
             "httpMethod" => "PUT",
-            "uri" => "/admin/api/2019-10/customers/{id}.json",
+            "uri" => "/admin/api/2020-04/customers/{id}.json",
             "summary" => "Update a customer record.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -363,7 +363,7 @@ return array(
          */
         "deleteCustomer" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/customers/{id}.json",
+            "uri" => "/admin/api/2020-04/customers/{id}.json",
             "summary" => "Delete a customer.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

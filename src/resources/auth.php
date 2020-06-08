@@ -15,7 +15,7 @@ return array(
 	    
         "postAuth" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/oauth/access_token",
+            "uri" => "/admin/api/2020-04/oauth/access_token",
             "summary" => "Retrieve Access Token",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(

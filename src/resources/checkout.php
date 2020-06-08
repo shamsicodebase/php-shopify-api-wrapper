@@ -21,7 +21,7 @@ return array(
          */
         "getCheckouts" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/checkouts.json",
+            "uri" => "/admin/api/2020-04/checkouts.json",
             "summary" => "Retrieve a list of all Checkouts",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -76,7 +76,7 @@ return array(
          */
         "getCheckoutCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/checkouts/count.json",
+            "uri" => "/admin/api/2020-04/checkouts/count.json",
             "summary" => "Retrieve a count of all Checkouts",
             "responseModel" => "defaultJsonResponse",
 			"properties" => array(

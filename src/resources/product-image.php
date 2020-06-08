@@ -21,7 +21,7 @@ return array(
          */
         "getProductImages" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/products/{id}/images.json",
+            "uri" => "/admin/api/2020-04/products/{id}/images.json",
             "summary" => "Retrieve a list of all Product images.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -52,7 +52,7 @@ return array(
          */
         "getProductImageCount" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/products/{id}/images/count.json",
+            "uri" => "/admin/api/2020-04/products/{id}/images/count.json",
             "summary" => "Get a count of all product images",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -108,7 +108,7 @@ return array(
          */
         "getProductImage" => array(
             "httpMethod" => "GET",
-            "uri" => "/admin/api/2019-10/product/{id}.json",
+            "uri" => "/admin/api/2020-04/product/{id}.json",
             "summary" => "Retrieve a single product image.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -129,7 +129,7 @@ return array(
          */
         "createProductImage" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/products/{id}/images.json",
+            "uri" => "/admin/api/2020-04/products/{id}/images.json",
             "summary" => "Create a new product image.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -185,7 +185,7 @@ return array(
          */
         "updateProductImage" => array(
             "httpMethod" => "POST",
-            "uri" => "/admin/api/2019-10/products/{product_id}/images/{id}.json",
+            "uri" => "/admin/api/2020-04/products/{product_id}/images/{id}.json",
             "summary" => "Update a product image.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
@@ -257,7 +257,7 @@ return array(
          */
         "deleteProductImage" => array(
             "httpMethod" => "DELETE",
-            "uri" => "/admin/api/2019-10/products/{product_id}/images/{id}.json",
+            "uri" => "/admin/api/2020-04/products/{product_id}/images/{id}.json",
             "summary" => "Delete a product image.",
             "responseModel" => "defaultJsonResponse",
             "parameters" => array(
